@@ -1,0 +1,35 @@
+.templatethreeContainer {
+    width: 65%;
+    height: fit-content;
+    margin: 100px auto;
+    transition: all .3s ease-in-out;
+    padding-bottom: 50px;
+}
+
+
+.templatethreeContainer:hover {
+    box-shadow: 0 0 3px 3px #8989896e;
+}
+
+.templatethreeSection {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+.templatethreeLeftSection {
+    width: 35%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.templatethreeRightSection {
+    width: 65%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}

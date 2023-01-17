@@ -1,0 +1,45 @@
+.templatetwo_four {
+    width: 65%;
+    height: fit-content;
+    margin: 100px auto;
+    transition: all .3s ease-in;
+    position: relative;
+    padding-bottom: 30px;
+    background: linear-gradient(
+        to right,
+        white 65%,
+        rgb(5,40,78) 65%
+      );
+}
+
+.templatetwo_four:hover {
+    box-shadow: 0 0 3px 0 #333;
+}
+
+.templatetwo_section_two {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.templatetwo_section_three {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    margin-top: -30px;
+    justify-content: space-evenly;
+}
+.templatetwo_section_four {
+    width: 100%;
+    padding-left: 120px;
+}
+.templatetwo_section_three_sub_section {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: -38px;
+}

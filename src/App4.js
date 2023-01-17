@@ -10,10 +10,10 @@ import getData from "./landingpage/components/actionbuttons/getData";
 import Auth from './auth/auth';
 
 import logo from "./logo.svg";
-import TemplateTwo from './templatetwo/templatetwo';
+import TemplateFour from './templatefour/templatefour';
 
 
-function App2() {
+function App4() {
   const[isLoggedIn, setIsLoggedIn] = useState(false);
   
   useEffect(()=> {
@@ -63,7 +63,7 @@ function App2() {
           }}>Logout</button>
           </section>
         </div>
-        <TemplateTwo ref={componentRef} />
+        <TemplateFour ref={componentRef} />
       <div className='actionButtonClass'>
       <ReactToPrint
         pageStyle={pageStyl}
@@ -105,4 +105,4 @@ function App2() {
   );
 }
 
-export default App2;
+export default App4;

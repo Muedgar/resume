@@ -44,7 +44,9 @@ function App() {
       {isLoggedIn?
         <>
         <div className='navbar'>
-          <div><img style={{width: '50px', height: '50px'}} src={logo} alt="logo" /><h1>ResumeBuilder</h1></div>
+          <div style={{cursor: "pointer"}} onClick={() => {
+            window.location = "/"
+          }}><img style={{width: '50px', height: '50px'}} src={logo} alt="logo" /><h1>ResumeBuilder</h1></div>
           <h1 onClick={() => {
             console.log("clicked");
             document.querySelector(".actionsDiv").classList.toggle("actionsDivShow");
