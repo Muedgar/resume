@@ -1,0 +1,212 @@
+/*rgb(113,81,169)*/
+
+.templatetwoworkexperienceContainer {
+    width: 55%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: -80px;
+    overflow: hidden;
+}
+
+.templatetwoworkexperienceContainer .templatetwomenu {
+    position: absolute;
+    top: 10px;
+    right: -80px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    z-index: -1;
+}
+.templatetwoworkexperienceContainer:hover .templatetwomenu{
+    right: 10px;
+    z-index: 1;
+}
+
+.templatetwoworkexperienceContainer:hover .templatetwomenu+.templatetwomenu{
+    right: 35px;
+    z-index: 1;
+}
+
+.templatetwoexperienceTitle {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.templatetwoexperienceTitle .templatetwoexperienceLogo {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.templatetwoexperienceTitle .templatetwoexperienceLogo img {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+
+.templatetwoexperienceTitle h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.templatetwoexperience {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.templatetwoexperience  .templatetwoexperienceYearTitle {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+
+.templatetwoexperience  .templatetwoexperienceYearTitle h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .9em;
+    font-weight: 500;
+    color: rgb(74, 71, 71);
+}
+
+
+.templatetwoexperience  .templatetwoexperienceYearTitle h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+.templatetwoexperience  .templatetwoexperienceYearTitle input:nth-child(1) {
+    width: 60px;
+    height: 24px;
+}
+.templatetwoexperience  .templatetwoexperienceYearTitle input:nth-child(3) {
+    width: 200px;
+    height: 24px;
+}
+.templatetwoexperience .templatetwoexperienceDescription textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(70, 69, 69);
+    width: 60%;
+    word-wrap: break-word;
+    padding: 20px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.templatetwoexperience .templatetwoexperienceAddress {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 50px;
+    margin-top: -25px;
+}
+
+.templatetwoexperience .templatetwoexperienceAddress p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .8em;
+    font-weight: 500;
+    color: rgb(106, 104, 104);
+}
+
+.templatetwoexperience .templatetwoexperienceAddress input {
+    width: 200px;
+    height: 24px;
+    margin: 20px 0 10px 38px;
+}
+
+.templatetwoexperience .templatetwoexperienceDescription {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* padding-left: 50px; */
+    margin-top: -20px;
+}
+
+.templatetwoexperience .templatetwoexperienceDescription p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(70, 69, 69);
+    width: 70%;
+    word-wrap: break-word;
+    padding-left: 60px;
+}
+
+.templatetwoaddExperience {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.templatetwoaddExperience input {
+    width: 50%;
+    height: 30px;
+    box-shadow: 0 10px 10px 0 #3330;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    margin: 10px auto;
+}
+
+.templatetwoaddExperience textarea {
+    width: 60%;
+    height: 200px;
+    box-shadow: 0 10px 10px 0 #3330;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    margin: 10px auto;
+}
+.templatetwoaddExperience input[type="button"] {
+    width: 50%;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px auto;
+    box-shadow: 0 10px 10px 0 #333;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+.templatetwoaddExperience input[type="button"]:focus,
+.templatetwoaddExperience input[type="button"]:active {
+    outline: none;
+    transform: translateZ(3px);
+    box-shadow: 0 5px 5px 0 #333;
+}
+
+.templatetwoexperience .menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    display: none;
+    transition: all .3s ease-in;
+}
+.templatetwoexperience:hover .menu{
+    display: block;
+}

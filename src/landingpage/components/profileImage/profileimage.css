@@ -1,0 +1,41 @@
+.profileContainer {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.profileContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profileContainer input {
+    display: none;
+}
+
+.profileContainer button {
+    width: 100%;
+    height: 50px;
+    padding: 5px 50px 0 50px;
+    position: absolute;
+    bottom: -50px;
+    border: none;
+    left: 0;
+    cursor: pointer;
+    border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: all .3s ease-in-out;
+    background-color: rgba(255, 255, 255, .3);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.profileContainer:hover button {
+    bottom: 0px;
+}

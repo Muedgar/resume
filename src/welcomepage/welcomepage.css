@@ -1,0 +1,193 @@
+
+@media (max-width: 1400px) {
+    #navItemId {
+        width: 50px;
+        height: 50px;
+    }
+    #welcome-description {
+        padding-top: 80px;
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #welcome-description h1 {
+        font-size: 3em;
+        width: 50%;
+        text-align: center;
+        word-wrap: break-word;
+        color: #333;
+    }
+
+    #welcome-description p {
+        font-size: 1.2em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 400;
+        width: 60%;
+        text-align: center;
+        word-wrap: break-word;
+        color: black;
+        margin-top: -15px;
+    }
+    #welcome-description button {
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px;
+        background-color: blueviolet;
+        color: black;
+        box-shadow: 0 3px 3px 0 #333;
+        margin: 10px;
+        transition: all .1s ease;
+    }
+    #welcome-description button:hover {
+        box-shadow: none;
+        background-color: rgb(93, 21, 161);
+    }
+    #welcome-templates-menu {
+        width: 100vw;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        position: relative;
+    }
+    .templates-inner {
+        width: 80%;
+        height: 100%;
+        border-bottom: 1px solid rgba(51, 51, 51, 0.212);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: relative;
+    }
+    .templates-inner button {
+        cursor: pointer;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: transparent;
+        color: rgb(129, 129, 129);
+        transition: all .1s ease;
+    }
+    .templates-inner button:nth-child(2) {
+        color: blueviolet;
+    }
+    .template-active {
+        width: 70px;
+        height: 1px;
+        background-color: blueviolet;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: all .5s ease;
+        transform: translateX(135px) scaleX(2);
+    }
+    #welcome-templates {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #welcome-templates div {
+        width: 100%;
+        align-self: center;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        transition: all .3s ease-in;
+    }
+    #welcome-templates div img {
+        width: 400px;
+        height: 600px;
+        margin: 10px auto;
+        box-shadow: 2px 2px 2px 2px #333;
+     }
+}
+@media (max-width: 1099px) { 
+    .template-active {
+        display: none;
+    }
+
+}
+@media (max-width: 376px) {
+    #navItemIdZero {
+        position: absolute;
+        left: 20px;
+    }
+    #navItemId {
+        position: absolute;
+        top: .09px;
+        right: 20px;
+        width: fit-content;
+        height: fit-content;
+        padding: 5px;
+    }
+    #navItemIdTwo {
+        right: 20px;
+    }
+    #welcome-description h1 {
+        font-size: 3em;
+        width: 100%;
+        text-align: center;
+        word-wrap: break-word;
+        color: #333;
+    }
+
+    #welcome-description p {
+        font-size: 1.2em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 400;
+        width: 90%;
+        text-align: center;
+        word-wrap: break-word;
+        color: black;
+        margin-top: -15px;
+    }
+    .template-active {
+        display: none;
+    }
+    #welcome-templates {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    #welcome-templates div {
+        background-color: white;
+        width: 100%;
+        align-self: center;
+        height: fit-content;
+        transition: all .3s ease-in;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: flex-start;
+        padding: 0;
+    }
+    #welcome-templates div img {
+        width: 300px;
+        height: 500px;
+        margin: 10px auto;
+        box-shadow: 2px 2px 2px 2px #333;
+    }
+}

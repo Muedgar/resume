@@ -1,0 +1,231 @@
+/*rgb(113,81,169)*/
+
+.educationContainer {
+    width: 90%;
+    height: fit-content;
+    padding: 30px 30px 100px 30px;
+    margin: -50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.educationContainer .menu {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    z-index: -1;
+}
+.educationContainer:hover .menu{
+    right: 10px;
+    z-index: 1;
+}
+.educationContainer:hover .menu+.menu{
+    right: 30px;
+    z-index: 1;
+}
+
+.educationTitle {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.educationTitle .experienceLogo {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    background-color: rgb(113,81,169);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.educationTitle .experienceLogo img {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+
+.educationTitle h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: rgb(113,81,169);
+    text-transform: uppercase;
+    
+}
+
+.education {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.education  .experienceYearTitle {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 70px;
+}
+
+.education  .experienceYearTitle h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .9em;
+    font-weight: 500;
+    color: rgb(74, 71, 71);
+}
+.education  .experienceYearTitle input:nth-child(1) {
+    width: 60px;
+    height: 24px;
+}
+.education  .experienceYearTitle input:nth-child(3) {
+    width: 200px;
+    height: 24px;
+}
+.education  .experienceYearTitle div {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(113,81,169);
+    border-radius: 50%;
+    position: relative;
+    margin: 17px;
+}
+
+.education  .experienceYearTitle div::before {
+    width: 17px;
+    height: 17px;
+    background-color: rgb(198 187 215 / 80%);
+    border-radius: 50%;
+    position: absolute;
+    content: '';
+    top: -3px;
+    left: -3px;
+}
+
+.education  .experienceYearTitle h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+
+.education .experienceAddress {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 145px;
+    margin-top: -25px;
+}
+
+.education .experienceAddress p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .8em;
+    font-weight: 500;
+    color: rgb(106, 104, 104);
+}
+
+.education .experienceDescription {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* padding-left: 50px; */
+    margin-top: -20px;
+}
+
+.education .experienceDescription p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(70, 69, 69);
+    width: 70%;
+    word-wrap: break-word;
+    padding-left: 145px;
+}
+
+.education .experienceDescription textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(70, 69, 69);
+    width: 60%;
+    word-wrap: break-word;
+    padding: 20px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+.addEducation {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.addEducation input {
+    width: 50%;
+    height: 30px;
+    box-shadow: 0 10px 10px 0 #3330;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    margin: 10px auto;
+}
+
+.addEducation textarea {
+    width: 60%;
+    height: 200px;
+    box-shadow: 0 10px 10px 0 #3330;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    margin: 10px auto;
+}
+.addEducation input[type="button"] {
+    width: 50%;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px auto;
+    box-shadow: 0 10px 10px 0 #333;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+.addEducation input[type="button"]:focus,
+.addEducation input[type="button"]:active {
+    outline: none;
+    transform: translateZ(3px);
+    box-shadow: 0 5px 5px 0 #333;
+}
+
+.education .menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    display: none;
+    transition: all .3s ease-in;
+}
+.education:hover .menu{
+    display: block;
+}

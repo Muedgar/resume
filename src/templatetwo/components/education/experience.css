@@ -1,0 +1,61 @@
+.templatetwoexperienceContainer {
+    padding-left: 50px;
+}
+.templatetwocontrol {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+
+.templatetwocontrol p {
+    margin-right: 5px;
+}
+.templatetwoicon {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+
+.templatetwoexperienceTitle {
+    color: black;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.templatetwoexperienceYear {
+    color: rgb(60, 60, 60);
+    font-size: .9em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    font-size: .8em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2.5px;
+}
+
+.imgLi {
+    display: none;
+}
+
+.templatetwocontrol:hover img {
+    display: block;
+}
+
+.templatetwocontrol input {
+    width: 90%;
+    height: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.templatetwocontrol textarea {
+    width: 90%;
+    height: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    letter-spacing: 1.1px;
+}
