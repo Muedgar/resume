@@ -1,4 +1,4 @@
-.templatetwo_four {
+.templatefour_app {
     width: 65%;
     height: fit-content;
     margin: 100px auto;
@@ -12,7 +12,7 @@
       );
 }
 
-.templatetwo_four:hover {
+.templatefour_app:hover {
     box-shadow: 0 0 3px 0 #333;
 }
 
